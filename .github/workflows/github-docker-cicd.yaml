@@ -24,6 +24,7 @@ jobs:
 
 
   ci_pipeline: 
+       if: false  # pour empecher que AWS ne s'execute pour le momemt
        runs-on: ubuntu-latest     # The job runs on the ubuntu-latest operating system
        
        steps:
